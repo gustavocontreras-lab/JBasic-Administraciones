@@ -154,29 +154,54 @@ button {
     }
 }
 /* =========================
-   LISTAS
+   LISTA HERO (FIX TOTAL)
 ========================= */
-.lista,
-.lista-experiencia {
+
+.lista {
     list-style: none;
-    padding-left: 0;
+    padding: 0;
+    margin-top: 20px;
 }
 
-.lista li,
-.lista-experiencia li {
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 12px;
+/* cada item */
+.lista li {
+    display: grid;
+    grid-template-columns: 20px 1fr; /* 👈 columna fija + texto */
+    align-items: start;
+    column-gap: 10px;
+    margin-bottom: 10px;
 }
 
-.lista li::before,
-.lista-experiencia li::before {
+/* check */
+.lista li::before {
     content: "✔";
     color: #f59e0b;
-    margin-right: 10px;
     font-weight: bold;
 }
 
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+    .lista {
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/* =========================
+   MOBILE FIX
+========================= */
+@media (max-width: 768px) {
+    .lista li {
+        justify-content: center; /* centra bloque */
+        text-align: left;        /* texto sigue ordenado */
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 /* =========================
    EXPERIENCE
 ========================= */
