@@ -356,3 +356,125 @@ button {
 .cta-btn {
     margin-top: 20px;
 }
+
+.logo-img{
+    width: 150px;
+    height: auto;
+}
+
+.logo{
+    border: none;
+}
+
+
+
+
+
+.footer-contenido{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.brand-info{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo-img{
+    width: 120px;
+    height: auto;
+}
+
+.brand-info p{
+    margin: 0;
+    max-width: 300px;
+}
+.footer-contacto{
+    text-align: left;
+}
+.footer-contacto p{
+    margin: 5px 0;
+}
+
+
+
+
+
+.logo-img{
+    width: 120px;
+    height: auto;
+    border: 3px solid orange;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+
+
+.footer-contenido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.footer{
+    text-align: center;
+}
+
+
+
+.footer-contenido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    width: 100%;
+}
+
+.brand-info{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+.btn-hero{
+    display: inline-block;
+    margin: 0 auto;
+}
+
+
+
+
+
+/* .nav{
+    padding: 8px 0;
+}
+.logo-img{
+    width: 90px;
+    height: auto;
+}
+.navbar{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.nav{
+    padding: 6px 0;
+}
+
+.logo-img{
+    width: 85px;
+    height: auto;
+}
+
+.navbar{
+    padding: 0;
+} */
